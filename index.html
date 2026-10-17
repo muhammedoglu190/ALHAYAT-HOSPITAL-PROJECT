@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="صفحة حجز مواعيد لمشفى الحياة الطبية">
+  <title>مشفى الحياة | حجز موعد</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="header">
+    <div class="container nav">
+      <a class="logo" href="#home" aria-label="العودة إلى الصفحة الرئيسية">
+        <span class="logo__icon">+</span>
+        <span>مشفى <strong>الحياة</strong></span>
+      </a>
+
+      <nav class="nav__links" aria-label="القائمة الرئيسية">
+        <a href="#home">الرئيسية</a>
+        <a href="#services">الخدمات</a>
+        <a href="#booking">حجز موعد</a>
+        <a href="#contact">تواصل معنا</a>
+      </nav>
+
+      <a class="btn btn--small" href="#booking">احجز الآن</a>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero" id="home">
+      <div class="container hero__grid">
+        <div class="hero__content">
+          <span class="eyebrow">رعاية طبية أقرب إليك</span>
+          <h1>صحتك تبدأ من<br><span>موعدٍ أسهل</span></h1>
+          <p>
+            احجز موعدك مع نخبة من الأطباء خلال دقائق، واختر الاختصاص والوقت المناسبين لك بكل سهولة.
+          </p>
+
+          <div class="hero__actions">
+            <a class="btn" href="#booking">حجز موعد جديد</a>
+            <a class="btn btn--ghost" href="#services">استكشف الخدمات</a>
+          </div>
+
+          <div class="hero__stats">
+            <div><strong>24/7</strong><span>دعم واستقبال</span></div>
+            <div><strong>+35</strong><span>طبيباً مختصاً</span></div>
+            <div><strong>+12K</strong><span>مراجع سعيد</span></div>
+          </div>
+        </div>
+
+        <div class="hero__visual" aria-label="طبيب في مشفى الحياة">
+          <div class="visual-card visual-card--top">
+            <span class="visual-card__icon">✓</span>
+            <div><strong>موعدك مؤكد</strong><small>سيصلك تأكيد خلال دقائق</small></div>
+          </div>
+
+          <div class="doctor-card">
+            <div class="doctor-card__halo"></div>
+            <div class="doctor-card__avatar">🧑‍⚕️</div>
+            <div class="doctor-card__info">
+              <span>أطباء موثوقون</span>
+              <strong>رعاية باهتمام</strong>
+            </div>
+          </div>
+
+          <div class="visual-card visual-card--bottom">
+            <span class="visual-card__icon">♥</span>
+            <div><strong>رعاية متكاملة</strong><small>من التشخيص حتى المتابعة</small></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="services section" id="services">
+      <div class="container">
+        <div class="section__heading">
+          <span class="eyebrow">خدماتنا الطبية</span>
+          <h2>اختصاصات تلبي احتياجاتك</h2>
+          <p>اختر العيادة المناسبة، ثم أكمل نموذج الحجز وسنتواصل معك لتأكيد الموعد.</p>
+        </div>
+
+        <div class="services__grid">
+          <article class="service-card">
+            <span class="service-card__icon">🫀</span>
+            <h3>القلبية</h3>
+            <p>تشخيص ومتابعة أمراض القلب والضغط بأحدث الأجهزة.</p>
+          </article>
+          <article class="service-card">
+            <span class="service-card__icon">🦷</span>
+            <h3>الأسنان</h3>
+            <p>علاجات شاملة للأسنان مع رعاية مريحة وآمنة.</p>
+          </article>
+          <article class="service-card">
+            <span class="service-card__icon">👶</span>
+            <h3>الأطفال</h3>
+            <p>متابعة صحة الطفل والنمو واللقاحات الدورية.</p>
+          </article>
+          <article class="service-card">
+            <span class="service-card__icon">👁️</span>
+            <h3>العيون</h3>
+            <p>فحوصات دقيقة وعلاج مشكلات النظر والعيون.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="booking section" id="booking">
+      <div class="container booking__grid">
+        <div class="booking__intro">
+          <span class="eyebrow eyebrow--light">احجز موعدك</span>
+          <h2>خطوة واحدة تفصلك عن رعاية أفضل</h2>
+          <p>أدخل بياناتك واختر الموعد المناسب، وسيتواصل معك فريق الاستقبال لتأكيد الحجز.</p>
+
+          <ul class="booking__features">
+            <li><span>✓</span> تأكيد سريع للموعد</li>
+            <li><span>✓</span> إمكانية اختيار الطبيب والاختصاص</li>
+            <li><span>✓</span> حفظ خصوصية بياناتك</li>
+          </ul>
+        </div>
+
+        <form class="booking-form" action="#" method="post">
+          <div class="form-group form-group--full">
+            <label for="name">الاسم الكامل</label>
+            <input id="name" name="name" type="text" placeholder="اكتب اسمك الكامل" required>
+          </div>
+
+          <div class="form-group">
+            <label for="phone">رقم الهاتف</label>
+            <input id="phone" name="phone" type="tel" placeholder="09xx xxx xxx" required>
+          </div>
+
+          <div class="form-group">
+            <label for="email">البريد الإلكتروني</label>
+            <input id="email" name="email" type="email" placeholder="name@example.com">
+          </div>
+
+          <div class="form-group">
+            <label for="department">الاختصاص</label>
+            <select id="department" name="department" required>
+              <option value="" selected disabled>اختر الاختصاص</option>
+              <option>القلبية</option>
+              <option>الأسنان</option>
+              <option>الأطفال</option>
+              <option>العيون</option>
+              <option>الجلدية</option>
+              <option>الداخلية</option>
+            </select>
+          </div>
+
+          <div class="form-group">
+            <label for="doctor">الطبيب</label>
+            <select id="doctor" name="doctor" required>
+              <option value="" selected disabled>اختر الطبيب</option>
+              <option>د. أحمد خالد</option>
+              <option>د. سارة محمود</option>
+              <option>د. لينا يوسف</option>
+              <option>د. عمر حسن</option>
+            </select>
+          </div>
+
+          <div class="form-group">
+            <label for="date">التاريخ</label>
+            <input id="date" name="date" type="date" required>
+          </div>
+
+          <div class="form-group">
+            <label for="time">الوقت</label>
+            <input id="time" name="time" type="time" required>
+          </div>
+
+          <div class="form-group form-group--full">
+            <label for="notes">ملاحظات إضافية</label>
+            <textarea id="notes" name="notes" rows="4" placeholder="اكتب أي تفاصيل مهمة للطبيب"></textarea>
+          </div>
+
+          <button class="btn form-group--full" type="submit">تأكيد طلب الحجز</button>
+          <p class="form-note form-group--full">هذا النموذج تجريبي ويحتاج إلى ربط برمجي لإرسال البيانات فعلياً.</p>
+        </form>
+      </div>
+    </section>
+
+    <section class="contact section" id="contact">
+      <div class="container contact__grid">
+        <div>
+          <span class="eyebrow">نحن هنا لخدمتك</span>
+          <h2>تواصل معنا في أي وقت</h2>
+        </div>
+        <div class="contact__items">
+          <a href="tel:+963111234567"><span>☎</span><div><small>الهاتف</small><strong>+963 11 123 4567</strong></div></a>
+          <a href="mailto:care@alhayat-hospital.com"><span>✉</span><div><small>البريد</small><strong>care@alhayat-hospital.com</strong></div></a>
+          <div><span>⌖</span><div><small>العنوان</small><strong>وسط المدينة، الشارع الطبي</strong></div></div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer__content">
+      <a class="logo logo--footer" href="#home"><span class="logo__icon">+</span><span>مشفى <strong>الحياة</strong></span></a>
+      <p>© 2026 MUHAMMED ÖMEROĞLU جميع الحقوق محفوظة لمشفى الحياة.</p>
+    </div>
+  </footer>
+</body>
+</html>
